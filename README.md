@@ -1,3 +1,3 @@
 # IntelliConnect Tech website
 # clone the project using following command
-git@github.com:kedman1234/IB.git
+git clone https://github.com/kedman1234/IB.git
