@@ -1,0 +1,7 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <title>Security</title>
+    <g stroke-width="4" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M50.002 85.12C46.124 83.772 21 74.235 21 53.445V24.092C35.6 23.573 46.683 16.425 50.002 14 53.317 16.425 64.404 23.573 79 24.096v29.353c.004 20.786-25.12 30.327-28.998 31.671z" stroke="#646464" />
+        <path d="M44 43h12v-2.793C56 36.78 53.314 34 50 34s-6 2.78-6 6.207V43zM40 43h20v18H40z" stroke="#757575" />
+    </g>
+</svg>
