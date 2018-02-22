@@ -11,16 +11,22 @@ a:hover {
   color: #00ce70;
 }
 
-/* Positions */
-.relative {
-  position:relative;
-}
-.absolute {
-  position:absolute;
-}
-.fixed {
-  position:fixed;
-}
+  .table-cell {
+    display: table-cell;
+  }
+
+/************** Positions **************/
+  .relative {
+    position:relative;
+  }
+  .absolute {
+    position:absolute;
+  }
+  .fixed {
+    position:fixed;
+  }
+/************** Positions **************/
+
 /**************materialize***********/
   .z-depth-0 {
     box-shadow: none !important;
@@ -45,7 +51,6 @@ a:hover {
   .z-depth-4, .modal {
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
   }
-
 /**************materialize***********/
 
 /**************Fonts***********/
@@ -302,7 +307,6 @@ a:hover {
   }
 /**************Preloader***********/
 
-
 /**************Home Section***********/
   #home {
     width:100%;
@@ -441,11 +445,6 @@ a:hover {
   }
 /**************Home Section***********/
 
-.table-cell {
-  display: table-cell;
-}
-
-
 /**************What we do***********/
   #wwd {
     width: 100%;
@@ -494,7 +493,6 @@ a:hover {
     vertical-align: middle;
   }
 /**************fact***********/
-
 
 /**************Contact***********/
   #contact {
@@ -558,8 +556,7 @@ a:hover {
   }
 /**************Contact***********/
 
-
-/*Services*/
+/**************Services/**************/
   #services {
     background: #f9f9f9;
     padding: 24px 0 60px;
@@ -585,10 +582,21 @@ a:hover {
 
   .profile-panel a {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.4em;
+    z-index: 10;
+  }
+
+  .profile-panel .black-drop {
+    background: rgba(0,0,0,0.4);
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
   }
 
   .background-avatar {
@@ -601,6 +609,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
+    z-index: 0;
   }
   .person1 {
     background-image: url(../images/person1.jpg);
@@ -610,6 +619,12 @@ a:hover {
   }
   .person3 {
     background-image: url(../images/person3.jpg);
+  }
+  .machine-learning {
+    background-image: url(../images/machine-learning.png);
+  }
+  .blockchain {
+    background-image: url(../images/blockchain.png);
   }
   .icon-custom-solutions,
   .icon-machine-learning,
@@ -628,6 +643,7 @@ a:hover {
   .icon-cyber-security {
     background: url(../images/security.svg) no-repeat 0 0;
   }
+
 
   /*
     .services-tab {
@@ -695,8 +711,7 @@ a:hover {
       background: url(../images/security.svg) no-repeat 0 0;
     }
   */
-
-/*Services*/
+/**************Services/**************/
 
 /**************Footer***********/
   #footer {
@@ -705,7 +720,7 @@ a:hover {
     color: #fff;
   }
   #footer h5 {
-    font-size: 16px;
+    font-size: 14px;
   }
   #footer ul {
     list-style: none;
@@ -713,6 +728,7 @@ a:hover {
   }
   #footer ul li {
     margin: 8px 0;
+    font-size: small;
   }
   #footer ul li a,
   #footer ul li a:active,
@@ -721,6 +737,15 @@ a:hover {
   }
   #footer ul li a:hover {
     color: #fff;
+  }
+  .social {
+    width: 32px;
+    height: 24px;
+    display: inline-block;
+    text-align: center;
+  }
+  .social:hover  {
+    border: 1px solid;
   }
 /**************Footer***********/
 
